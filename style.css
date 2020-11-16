@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat';
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10em ;
+    padding: 1.5em;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav h1{
+    padding-right: 2em;
+    font-size: 2em;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 2em;
+}
+h5{
+    margin-bottom: 2em;
+}
+.content{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: 8em auto;
+    text-align: justify;
+}
+.title{
+    width: 50%;
+    margin-right: 3em;
+}
+.social{
+    width: 50%;
+    margin-left: 3em;
+}
+.social p{
+    line-height: 2;
+}
+button{
+    background-color: #ff7276;
+    border-radius: 1em;
+    border: none;
+    padding: 1em 3em;
+    font-family: 'montserrat';
+    color: #fff;
+    font-weight: 600;
+}
+#timer {
+    font-size: 8em;
+    font-weight: 800;   
+    color: #ffffff;
+    text-shadow: 0pt 0pt 5px #ff7276, 0pt 0pt 10px #ff7276, 0pt 0pt 15px #ff7276;  
+}
+#timer div {
+    display: inline-block;
+    min-width: 90px;
+    border-right: 1px solid rgba(255, 255, 255, 0.171);
+    border-left: 1px solid rgba(255, 255, 255, 0.171);
+}
+#timer div span {
+    display: block;
+    font-size: .15em;
+    font-weight: 200;     
+    text-transform: uppercase;
+    padding: 0 8em;
+    width: 100;
+}
